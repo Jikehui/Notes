@@ -15,7 +15,7 @@ $ git config --global user.email "email@example.com"
 * 把这个目录变成Git可以管理的仓库：$ git init
 
 
-##从终端完成代在工作区到远程仓库的传递与加载
+## 从终端完成代在工作区到远程仓库的传递与加载
 - 下载git工具到本地
 - use git下载项目：clone with https
 - 进入该项目文件夹目录：cd 文件名
@@ -44,7 +44,7 @@ $ git config --global user.email "email@example.com"
 * 登陆GitHub，打开“Account settings”，“SSH Keys”页面,
 然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
 
-## 本地仓库连接远程仓库
+#### 本地仓库连接远程仓库
 -----------
   #### 方法一：  添加远程库
   `在本地创建了一个Git仓库后，又想在GitHub创建一个Git仓库，并且让这两个仓库进行远程同步`
@@ -58,7 +58,7 @@ $ git config --global user.email "email@example.com"
 * 使用git clone命令克隆:$ git clone git@github.com:michaelliao/gitskills.git
 (Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快)
 
-# 从终端完成文件在工作区到远程库的传递与加载
+### 从终端完成文件在工作区到远程库的传递与加载
 代码
 -----------
 `工作区->本地暂存区->本地仓库`
@@ -67,4 +67,4 @@ $ git config --global user.email "email@example.com"
 * 推送到远程库（github）：git push origin master
 * 从远程仓库获取：git pull origin master
 * 查看文件状态：git status
->>>>>>> e339935447613da85e990bede1153fb66546d926
+
