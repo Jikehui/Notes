@@ -67,4 +67,4 @@ $ git config --global user.email "email@example.com"
 * 推送到远程库（github）：git push origin master
 * 从远程仓库获取：git pull origin master
 * 查看文件状态：git status
->>>>>>> e339935447613da85e990bede1153fb66546d926
+
