@@ -15,7 +15,7 @@ $ git config --global user.email "email@example.com"
 * 把这个目录变成Git可以管理的仓库：$ git init
 
 
-##从终端完成代在工作区到远程仓库的传递与加载
+## 从终端完成代在工作区到远程仓库的传递与加载
 - 下载git工具到本地
 - use git下载项目：clone with https
 - 进入该项目文件夹目录：cd 文件名
