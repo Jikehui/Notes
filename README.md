@@ -32,9 +32,9 @@
 
 ## 内部讲课安排内容
 
-- 团队项目中Git和GitHub的使用**(DONE)**
+- 团队项目中Git和GitHub的使用(DONE)
 
-- 前端PS切图和丰锦电力项目说明**(DONE)**
+- 前端PS切图和丰锦电力项目说明(DONE)
 
 - 使用BootStrap3响应式开发和jQuery基础
 
