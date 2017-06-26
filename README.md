@@ -2,11 +2,7 @@
 
 > 新建一个仓库，为团队学习提供笔记记录场所(前期markdown语法可以参考这篇说明)。下面是半年内的团队大致学习路线，中途有新知识我会加入讲解。希望各位能有自主学习能力，最后选择自己喜欢的RD岗位。
 
-<p style="width: 300px; text-align: center;">
-
 ![极客汇](http://ool6x4l46.bkt.clouddn.com/jikehui.jpg)
-
-</p>
 
 <!-- more -->
 
