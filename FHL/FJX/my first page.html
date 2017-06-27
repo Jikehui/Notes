@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http - equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>认识HTML标签</title>
+		<style type="text/css">
+		h1
+		{
+			font-size:50px;
+			color:#930;
+			text-align:center;
+		} 
+		p
+		{
+			font-size:28px;
+		}
+		span
+		{
+			color:red;
+		}
+		q
+		{
+			font-size:28px;
+		}
+		blockquote
+		{
+			font-size:28px;
+		}
+		table tr td,th
+		{
+			border:1px solid red;	
+		}
+		</style> 
+	</head>
+	
+	<body>
+		<h1>My Study</h1>
+		<h2>勇气</h2>
+		<!试试>
+		<q>春蚕到死丝方尽，蜡炬成灰泪始干。</q> 
+		<p>三年级时，我还是一个胆小如鼠的<em>小女孩</em>，上课从来不敢回答<span>老师</span>提出的问题，生怕回答错了老师会批评我。
+		就一直没有这个勇气来回答老师提出的问题。学校举办的活动我也没勇气参加。</p>
+		<p>到了三年级下学期时，我们班上了一节公开课，老师提出了一个很简单的问题，班里很多同学都举手了，甚至
+		成绩比我差很多的，也举手了，还说着："<strong>我来，我来。</strong>"我环顾了四周，就我没有举手。</p>
+		<hr/>
+		
+		<h2>父亲</h2> 
+		<blockquote>
+		总是向你索取&nbsp却不曾说谢谢你<br/>
+		直到长大以后&nbsp才懂得你不容易<br/>
+		每次离开总是&nbsp装做轻松的样子<br/>
+		微笑着说回去吧&nbsp转身泪湿眼底<br/>
+		多想和从前一样&nbsp牵你温暖手掌<br/>
+		可是你不在我身旁&nbsp托清风捎去安康<br/>
+		</blockquote>
+		<hr/>
+		
+		<h2>显示代码</h2>
+		<code>int i=3;</code><br/>
+		<code>#include<iostream></code> 
+		<hr/>
+		
+		<h2>大段代码</h2>
+		<pre>
+#include&ltiostream&gt
+using namespace std;
+
+class Clock
+{
+public:
+	Clock(int con_h=0, int con_m=0, int con_s=0):hh(con_h), mm(con_m), ss(con_s){}
+	Clock(Clock &con_reclock)
+	{
+		hh=con_reclock.hh;
+		mm=con_reclock.mm;
+		ss=con_reclock.ss;
+	} 
+	~Clock(){}
+	void set_h(int _h)
+	{
+		hh=_h;
+	}
+	void set_m(int _m)
+	{
+		mm=_m; 
+	} 
+	void set_s(int _s)
+	{
+		ss=_s;
+	}
+private:
+	int hh,mm,ss;
+};
+
+int main()
+{
+	Clock time(14,30,59);
+	time.Print();
+	return 0;
+} 
+</pre>
+		<hr/>
+		
+		<div id="unorder"> 
+		<h2>无序列表</h2>
+		<ul>
+			<li>水果</li>
+			<li>蔬菜</li>
+			<li>鱼肉</li> 
+		</ul>
+		</div> 
+		<hr/> 
+		 
+		<div id="order">
+		<h2>有序列表</h2>
+		<ol>
+			<li>吃</li>
+			<li>喝</li>
+			<li>玩</li>
+			<li>乐</li> 
+		</ol>
+		</div>
+		<hr/>
+		
+		<h2>网页表格</h2> 
+		<table summary="大物网1、2班成绩表">
+			<caption>物联网平均成绩表</caption> 
+			<tbody>
+				<tr>
+					<th>班级</th>
+					<th>学生数</th>
+					<th>平均成绩</th>
+				</tr>
+				<tr>
+					<td>一班</td>
+					<td>32</td>
+					<td>80</td>
+				</tr>
+				<tr>
+					<td>二班</td>
+					<td>33</td>
+					<td>80</td> 
+				</tr> 
+			</tbody>
+		</table>
+		<hr />
+		
+		<h2>链接到另一个页面</h2>
+		<a href="http://www.hao123.com" title="点击进入hao123主页">hao123</a><br />
+		<a href="http://www.baidu.com" target="_blank" title="点击进入百度主页">Baidu</a> 
+		<hr /> 
+		
+		<h2>链接到邮箱</h2>
+		<a href="mailto:931876629@qq.com?cc=2268889196@qq.com&subject=你好!&body=你好！" title="发送邮件">咨询</a> 
+		<hr />
+		
+		<h2>表单</h2>
+		<form>
+		姓名：
+		<input type="text" name="myname" value="我的名字"/>
+		<br />
+		密码：
+		<input type="password" name="pass" value="" />
+		</from>
+		<hr /> 
+		
+		<h2>文本域</h2>
+		<form method="post" action="save.php">
+		<label>联系我们</label>
+		<textarea cols="160" rows="20">在这里输入内容……</textarea>
+		</form>
+		<hr />
+		 
+		<h2>单选框、多选框</h2>
+		<form name="iform" method="post" action="save.php">
+			你喜欢游泳吗？<br />
+			<input type="radio" name="radioLove" value="喜欢" checked="checked">喜欢
+			<input type="radio" name="radioLove" value="不喜欢">不喜欢
+			<input type="radio" name="radioLove" value="无所谓">无所谓
+			<br /><br />
+			你对那些动物感兴趣？<br />
+			<input type="checkbox" name="checkbox1" value="跑步">跑步
+			<input type="checkbox" name="checkbox2" value="打球" checked="checked">打球
+			<input type="checkbox" name="checkbox2" value="登山" checked="checked">登山
+			<input type="checkbox" name="checkbox2" value="健身">健身
+		</form>
+		<hr />
+
+		<h2>下拉列表框</h2>
+		<form name="iform">
+			<label>爱好：</label>
+			 <select>
+			 	<option value="读书">读书</option>
+			 	<option value="运动">运动</option>
+			 	<option value="音乐">音乐</option>
+			 	<option value="旅游">旅游</option>
+			 	<option value="购物" selected="selected">购物</option>
+			 </select>
+			</label>
+		</form>
+		<hr />
+
+		<h2>提交按钮</h2>
+		<form method="post" action="save.php">
+			<label for="myName">名字:</label>
+			<input type="text" value=" " name="myName" />
+			<input type="submit" value="提交" name="submitBtn" />	
+		</form>
+		<hr />
+
+		<h2>重置按钮</h2>
+		<form method="post" action="save.php">
+			<label for="myName">姓名</label>
+			<input type="text" value=" " name="myName" />
+			<input type="reset" value="重置" name="resetBtn" />
+		</form>
+		<hr />
+
+		<h2>插入图片</h2> 
+		<img src="http://os3bk0ltg.bkt.clouddn.com/479bf835972f90844e52c169a6192635.jpg" alt="网络出错！" title="波雅·汉库克">
+		<hr />
+		<p>地址：<address>广东广州</address> </p>
+	</body> 
+</html> 
