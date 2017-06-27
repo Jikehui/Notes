@@ -10,12 +10,19 @@
 
 ```
 1. 前端基础和响应式页面
+
 2. 一周学会传统PHP并运用实战
+
 3. jQuery基础实战SPA
+
 4. 基于jQuery撸一个后台
+
 5. MVVM新秀Vue.js
+
 6. 用Vue+PHP开发RESTful风格的SPA项目
+
 7. ThinkPHP5项目实战
+
 8. 了解组件化的Node.js。
 ```
 
@@ -25,13 +32,13 @@
 
 ## 内部讲课安排内容
 
-- 团队项目中Git和GitHub的使用***(DONE)***
+- 团队项目中Git和GitHub的使用(DONE)
 
-- 关于前端PS切图和暑假开始丰锦电力项目说明
+- 前端PS切图和丰锦电力项目说明(DONE)
 
 - 使用BootStrap3响应式开发和jQuery基础
 
-- 待续
+- 待续(有讲课需求可以提交issues说明)
 
 ## 外部讲课安排内容
 
@@ -81,5 +88,4 @@
 
 - [W3School在线教程](http://www.w3school.com.cn/)
 
-
-- 待续
+- 待续(有讲课需求可以提交issues说明)
